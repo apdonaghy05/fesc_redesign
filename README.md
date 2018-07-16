@@ -1,6 +1,4 @@
-# Project Title
-
-FESC Redesign Project
+# FESC Redesign Project
 
 ## Objective
 
