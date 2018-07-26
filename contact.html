@@ -7,37 +7,43 @@
     <meta name="author" content="Andrew Donaghy">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,600i,800,800i,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+     <link rel="stylesheet" type="text/css" href="styles/main.css">
     <title>FESC</title>
   </head>
   
   <body>
-    <header>
-      <a href="index.html">
-        <img src="docs/images/fesc_logo.svg" alt="FESC Logo">
-      </a>
-      <p>Florida Energy System Consortium</p> 
-    </header> 
-    
-    <nav>
-      <ul>
-        <li>
-          <a href="#">Research</a>
-        </li>
-        <li>|</li>
-        <li>
-          <a href="outreach.html">Outreach</a>
-        </li>
-        <li>|</li>
-        <li>
-          <a href="#">Industry</a>
-        </li>
-        <li>|</li>
-        <li>
-          <a href="#">Contact Us</a>
-        </li>
-      </ul>
-    </nav>
+   
+      <div class="mainContainer">
+      <header class="flex">
+        <a href="index.html">
+          <img src="docs/images/fesc_logo.svg" alt="FESC Logo">
+        </a>
+        <p class="logoType">Florida Energy Systems Consortium</p> 
+      </header> 
+      <form class="flex right">
+        <input type="text" name="search">
+        <button class="search" type="submit">SEARCH</button>
+      </form>
+      </div>
+
+
+
+  <nav class="topnav" id="myTopnav">
+    <div class="nav_mainContainer">
+    <a href="#">Research</a>
+    <a href="#">Technology</a>
+    <a href="outreach.html">Outreach</a>
+    <a href="#">Advisory Board</a>
+    <a href="contact.html">Contact Us</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+    </a>
+    </div>
+  </nav>
+
     
     <main>
       
@@ -76,30 +82,40 @@
 
     </main>
  
-    <nav>
-      <ul>
-        <li>
-           <a href="#">About</a>
-        </li>
-        <li>|</li>
-        <li>
-           <a href="#">Events</a>
-         </li>
-        <li>|</li>
-        <li>
-          <a href="#">Location</a>
-         </li>
-      </ul>
-    </nav>
-
     <footer>  
+      <a href="index.html">
+        <img src="docs/images/fesc_logo_2.svg" alt="FESC Logo">
+      </a>
+      <nav>
+        <ul class="flex">
+          <li>
+             <a href="#">About</a>
+          </li>
+          <li>|</li>
+          <li>
+             <a href="#">Events</a>
+           </li>
+          <li>|</li>
+          <li>
+            <a href="#">Location</a>
+           </li>
+        </ul>
+      </nav>
+
       <a href="#"><i class="fab fa-instagram"></i></a>
       <a href="#"><i class="fab fa-twitter"></i></a> 
       <a href="#"><i class="fab fa-facebook"></i></a> 
-      <i class="fas fa-copyright"></i>
-      <p>Florida Energy System Consortium</p>
+      <p class="copyRight"><i class="fas fa-copyright"></i>Florida Energy Systems Consortium</p>
+      
     </footer>
+
+
+
+<script src="js/nav.js"></script>
+
 
   </body>
 
 </html>
+
+
